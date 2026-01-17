@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efa5480f1799894dbdf76655f968645, type: 3}
+  m_Name: 100_armor_point_reward
+  m_EditorClassIdentifier: 
+  rewardName: 100 Armor Point
+  icon: {fileID: 21300000, guid: c54a94c7385780d408ce1450a3e70010, type: 3}
+  description: 100 Armor Point
+  amount: 100

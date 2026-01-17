@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab807b0a3547e341aa555bf55d275a8, type: 3}
+  m_Name: m4_rifle_weapon_reward
+  m_EditorClassIdentifier: 
+  rewardName: M4 Rifle
+  icon: {fileID: 21300000, guid: 821ff41d98723314299f689986dbf3ff, type: 3}
+  description: M4 Rifle
+  amount: 1
