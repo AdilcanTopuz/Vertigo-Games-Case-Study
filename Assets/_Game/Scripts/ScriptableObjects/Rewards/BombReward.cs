@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace RewardSystem
 {
@@ -16,8 +16,6 @@ namespace RewardSystem
 
         public override void Claim()
         {
-            // TODO: Integrate with your inventory/bomb manager
-            // Example: InventoryManager.Instance.AddBombs(Amount);
 
             Debug.Log($"[BombReward] Claimed {Amount} bomb(s)!");
         }

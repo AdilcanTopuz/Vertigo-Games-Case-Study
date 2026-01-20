@@ -1,10 +1,11 @@
-using System;
+﻿using System;
 using System.Collections;
 using UnityEngine;
 using WheelSystem;
 using ZoneSystem;
 using GameSystem;
 using RewardSystem;
+using BombSystem;
 
 namespace SpinSystem
 {
@@ -23,6 +24,7 @@ namespace SpinSystem
 
         public event Action OnSpinStarted;
         public event Action<WheelSlice> OnSpinCompleted;
+        public event Action OnSpinResultProcessed;
 
         [Header("Spin Settings")]
         [SerializeField] private float spinDuration = 2f;
@@ -71,27 +73,26 @@ namespace SpinSystem
             State = SpinState.Stopped;
             OnSpinCompleted?.Invoke(result);
 
-            Debug.Log($"[SpinController] Spin result: {result.sliceName} (Bomb: {result.isBomb})");
+            Debug.Log($"[SpinController] Spin result: {result.SliceName} (Bomb: {result.IsBomb})");
 
-            ProcessSpinResult(result);
         }
 
-        private void ProcessSpinResult(WheelSlice result)
+        public void ProcessReward(RewardSystem.Reward reward)
         {
-            if (result.isBomb)
-            {
-                BombHandler.Instance.HandleBombHit();
-            }
-            else
-            {
-                Reward reward = result.rewardConfig.CreateReward();
-                GameStateManager.Instance.AddReward(reward);
-
-                ZoneManager.Instance.NextZone();
-                WheelManager.Instance.LoadWheelForZone(ZoneManager.Instance.CurrentZone);
-            }
-
+            GameStateManager.Instance.AddReward(reward);
+            Debug.Log($"[SpinController] Reward added: {reward.GetDisplayText()}");
+            
             State = SpinState.Idle;
+            OnSpinResultProcessed?.Invoke();
+            Debug.Log("[SpinController] State changed to: Idle");
+        }
+
+        public void ProcessBomb()
+        {
+            BombHandler.Instance.HandleBombHit();
+            State = SpinState.Idle;
+            OnSpinResultProcessed?.Invoke();
+            Debug.Log("[SpinController] Bomb handled, state changed to: Idle");
         }
     }
 }

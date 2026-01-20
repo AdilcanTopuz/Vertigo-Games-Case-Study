@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 
 namespace RewardSystem
@@ -17,8 +17,6 @@ namespace RewardSystem
 
         public override void Claim()
         {
-            // TODO: Integrate with your currency manager
-            // Example: CurrencyManager.Instance.AddCash(Amount);
 
             Debug.Log($"[CashReward] Claimed {Amount} cash!");
         }

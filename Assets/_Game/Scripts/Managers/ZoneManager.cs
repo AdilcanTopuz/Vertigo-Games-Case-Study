@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using UnityEngine;
 
 namespace ZoneSystem
@@ -60,6 +60,7 @@ namespace ZoneSystem
         public void ResetZone()
         {
             CurrentZone = 1;
+            OnZoneChanged?.Invoke(CurrentZone);
             Debug.Log("[ZoneManager] Zone reset to 1");
         }
 

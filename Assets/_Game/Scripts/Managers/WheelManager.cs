@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using ZoneSystem;
@@ -51,7 +51,8 @@ namespace WheelSystem
                 return null;
             }
 
-            int index = Mathf.Min(zone - 1, bronzeWheels.Count - 1);
+            int index = Mathf.Clamp(zone - 1, 0, bronzeWheels.Count - 1);
+            Debug.Log($"[WheelManager] GetBronzeWheel: zone={zone}, index={index}, wheel={bronzeWheels[index].name}");
             return bronzeWheels[index];
         }
 
