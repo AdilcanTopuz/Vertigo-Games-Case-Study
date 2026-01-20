@@ -7,6 +7,11 @@ This project is a robust implementation of a "Wheel of Fortune" mobile game mech
 ## 📱 UI Responsiveness & Aspect Ratio Tests
 The UI is engineered to maintain visual integrity across extreme aspect ratios using Unity's Canvas Scaler and custom anchor setups.
 
+## Gameplay Demo
+https://github.com/user-attachments/assets/5e3a6dd5-89c5-4406-a111-f0fa7abbb37b
+
+
+
 | 20:9 (Modern Phones) | 16:9 (Standard) | 4:3 (Tablets) |
 | :---: | :---: | :---: |
 | <img src="Media/screenshot_20_9.jpg" width="100%"> | <img src="Media/screenshot_16_9.jpg" width="100%"> | <img src="Media/screenshot_4_3.jpg" width="100%"> |
