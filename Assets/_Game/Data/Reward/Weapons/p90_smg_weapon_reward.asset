@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: p90_smg_weapon_reward
   m_EditorClassIdentifier: 
   rewardName: P90 SMG
-  icon: {fileID: 21300000, guid: 938021f4ac10af54da737b88df466ebd, type: 3}
+  icon: {fileID: 21300000, guid: 271b7299ba6baec4d9b46a910aae7eea, type: 3}
+  isBomb: 0
   description: P90 SMG
   amount: 1

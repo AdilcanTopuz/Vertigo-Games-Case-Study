@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: healtshot_neurostim_utility_reward
   m_EditorClassIdentifier: 
   rewardName: Healthshot Neurostim
-  icon: {fileID: 21300000, guid: 8da26a379a736ca449fa472ac2aae08c, type: 3}
+  icon: {fileID: 21300000, guid: 4e0e8faea16fa1c4193b8cedb73f084e, type: 3}
+  isBomb: 0
   description: Healthshot Neurostim
   amount: 1

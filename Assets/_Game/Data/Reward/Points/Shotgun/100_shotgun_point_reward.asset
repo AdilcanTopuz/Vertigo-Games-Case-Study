@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 100_shotgun_point_reward
   m_EditorClassIdentifier: 
   rewardName: 100 Shotgun Point
-  icon: {fileID: 21300000, guid: 9a8b8cbea9eac794d954bcd65f6a1ba7, type: 3}
+  icon: {fileID: 21300000, guid: f5a65fb955692b143938900c9f6ac4fc, type: 3}
+  isBomb: 0
   description: 100 Shotgun Point
   amount: 100

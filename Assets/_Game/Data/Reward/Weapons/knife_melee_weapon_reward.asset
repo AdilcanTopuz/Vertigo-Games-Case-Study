@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: knife_melee_weapon_reward
   m_EditorClassIdentifier: 
   rewardName: Knife Melee
-  icon: {fileID: 21300000, guid: 212666c6d53f8124997383482d1e9c8f, type: 3}
+  icon: {fileID: 21300000, guid: f2a90ce847a1b8540aea75de562b97f7, type: 3}
+  isBomb: 0
   description: Knife Melee
   amount: 1

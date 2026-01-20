@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: helmet_pumpkin_armor_reward
   m_EditorClassIdentifier: 
   rewardName: Helmet Pumpkin Armor
-  icon: {fileID: 21300000, guid: 36934ca9e7445124baf462813c9717aa, type: 3}
+  icon: {fileID: 21300000, guid: ff35df442225fad429359c28870815bb, type: 3}
+  isBomb: 0
   description: Helmet Pumpkin Armor
   amount: 1

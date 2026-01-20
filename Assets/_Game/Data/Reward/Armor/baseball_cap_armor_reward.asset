@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: baseball_cap_armor_reward
   m_EditorClassIdentifier: 
   rewardName: Baseball Cap Armor
-  icon: {fileID: 21300000, guid: 97038bda9ea298148b3c4937ffacc1b0, type: 3}
+  icon: {fileID: 21300000, guid: c9a2620b62f0d104f9fc24db1f9bafe7, type: 3}
+  isBomb: 0
   description: Baseball Cap Armor
   amount: 1

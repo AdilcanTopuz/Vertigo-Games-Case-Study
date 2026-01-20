@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: molotov_utility_reward
   m_EditorClassIdentifier: 
   rewardName: Molotov Bomb
-  icon: {fileID: 21300000, guid: 21e00d4829b1fda49949703b17b900f7, type: 3}
+  icon: {fileID: 21300000, guid: 9580ba5a856bbdb4dbb2f6636ccc3224, type: 3}
+  isBomb: 0
   description: Molotov Bomb
   amount: 1

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: 500_gold_currency_reward
   m_EditorClassIdentifier: 
   rewardName: 500 Gold
-  icon: {fileID: 21300000, guid: 73e39f3a18abd4944ba60392ac0799fc, type: 3}
+  icon: {fileID: 21300000, guid: 1ef31562c86a076408aabb1cff517ff9, type: 3}
   description: 500 Gold Award
   amount: 500

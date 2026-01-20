@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: mag7_shotgun_weapon_reward
   m_EditorClassIdentifier: 
   rewardName: Mag7 Shotgun
-  icon: {fileID: 21300000, guid: dcbf9ee0115a36948bbda949b56c0bbe, type: 3}
+  icon: {fileID: 21300000, guid: 4e08172425ec9a342b54f18f55b0dad0, type: 3}
+  isBomb: 0
   description: Mag7 Shotgun
   amount: 1

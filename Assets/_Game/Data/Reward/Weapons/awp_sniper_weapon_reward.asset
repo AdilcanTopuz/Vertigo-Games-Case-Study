@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: awp_sniper_weapon_reward
   m_EditorClassIdentifier: 
   rewardName: AWP Sniper Rifle
-  icon: {fileID: 21300000, guid: a66132f6ee4c0654c82752f77ee28055, type: 3}
+  icon: {fileID: 21300000, guid: 8d1f3897dc39b8244b9b0d72f1b05865, type: 3}
+  isBomb: 0
   description: AWP Sniper Rifle
   amount: 1

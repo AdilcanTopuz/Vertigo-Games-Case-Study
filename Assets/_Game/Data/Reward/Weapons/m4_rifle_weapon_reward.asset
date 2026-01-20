@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: m4_rifle_weapon_reward
   m_EditorClassIdentifier: 
   rewardName: M4 Rifle
-  icon: {fileID: 21300000, guid: 821ff41d98723314299f689986dbf3ff, type: 3}
+  icon: {fileID: 21300000, guid: ad671eda0d8435c4086b067fd7e63c84, type: 3}
+  isBomb: 0
   description: M4 Rifle
   amount: 1

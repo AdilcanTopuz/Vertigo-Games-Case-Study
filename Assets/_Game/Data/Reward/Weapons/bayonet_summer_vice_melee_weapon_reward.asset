@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: bayonet_summer_vice_melee_weapon_reward
   m_EditorClassIdentifier: 
   rewardName: Bayonet Summer Vice
-  icon: {fileID: 21300000, guid: 00ac88ccf9ea04143a93a3096369896c, type: 3}
+  icon: {fileID: 21300000, guid: cad0869b46244034d9c304fd1b3a2430, type: 3}
+  isBomb: 0
   description: Bayonet Summer Vice
   amount: 1

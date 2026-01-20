@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: death_bomb_reward
   m_EditorClassIdentifier: 
   rewardName: Bomb
-  icon: {fileID: 21300000, guid: 75fb80c6860a16e4490268b26dc6e77f, type: 3}
+  icon: {fileID: 21300000, guid: b994d70808a5d174a85754fa389ce719, type: 3}
+  isBomb: 1
   description: Death Bomb
   amount: 1

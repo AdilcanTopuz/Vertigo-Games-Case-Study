@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: aviator_glasses_armor_reward
   m_EditorClassIdentifier: 
   rewardName: Aviator Glasses Armor
-  icon: {fileID: 21300000, guid: 4d8bdc5d2f1dc284f8c37f84b06f6630, type: 3}
+  icon: {fileID: 21300000, guid: a9de3d266835d2740b27572d1ea2cb96, type: 3}
+  isBomb: 0
   description: Aviator Glasses Armor
   amount: 1

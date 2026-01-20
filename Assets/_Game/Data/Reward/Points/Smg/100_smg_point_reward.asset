@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 100_smg_point_reward
   m_EditorClassIdentifier: 
   rewardName: 100 SMG Point
-  icon: {fileID: 21300000, guid: acba50fcb364d4643a7b2b6c0841b03b, type: 3}
+  icon: {fileID: 21300000, guid: da3de22698485d94c8b007919960571a, type: 3}
+  isBomb: 0
   description: 100 SMG Point
   amount: 100

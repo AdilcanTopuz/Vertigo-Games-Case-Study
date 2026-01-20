@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 1000_rifle_point_reward
   m_EditorClassIdentifier: 
   rewardName: 1000 Rifle Point
-  icon: {fileID: 21300000, guid: f4242e85afef54d4ab48ed48bdab680c, type: 3}
+  icon: {fileID: 21300000, guid: 9f83411c3f8133e4dacc13273a11ccf9, type: 3}
+  isBomb: 0
   description: 1000 Rifle Point
   amount: 1000

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de2581fd1dc874b409c6ee4190405ac3, type: 3}
-  m_Name: 100_cash_currency_reward
+  m_Name: 1000_cash_currency_reward
   m_EditorClassIdentifier: 
-  rewardName: 100 Cash
-  icon: {fileID: 21300000, guid: 1db563500ffbdb84089dda77bc670ccf, type: 3}
-  description: 100 Cash Award
-  amount: 100
+  rewardName: 1000 Cash
+  icon: {fileID: 21300000, guid: 6223a42fb96dda64f98f072d31fe9750, type: 3}
+  description: 1000 Cash Award
+  amount: 1000

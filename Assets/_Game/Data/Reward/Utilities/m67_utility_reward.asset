@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: m67_utility_reward
   m_EditorClassIdentifier: 
   rewardName: M67 Bomb
-  icon: {fileID: 21300000, guid: 8dde2101c30074f4fb2b9129d610de16, type: 3}
+  icon: {fileID: 21300000, guid: fa0a3c6487316324092f34aeada83f8d, type: 3}
+  isBomb: 0
   description: M67 Bomb
   amount: 1

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 100_sniper_point_reward
   m_EditorClassIdentifier: 
   rewardName: 100 Sniper Point
-  icon: {fileID: 21300000, guid: 96945d2f2f40142448c880acca34bd6b, type: 3}
+  icon: {fileID: 21300000, guid: f26401adfad71424c929e20e8af46816, type: 3}
+  isBomb: 0
   description: 100 Sniper Point
   amount: 100

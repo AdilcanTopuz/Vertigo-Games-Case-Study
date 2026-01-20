@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d2cf673396216c49b76900c66ff1483, type: 3}
+  m_Name: SilverWheel_Zone_5
+  m_EditorClassIdentifier: 
+  wheelType: 1
+  wheelName: Silver Spin 5
+  wheelSprite: {fileID: 21300000, guid: 125169dce08dcd843b5f64f0d9b645db, type: 3}
+  slices:
+  - rewardConfig: {fileID: 11400000, guid: 4630c0c7147b4bc46afb78450c1c573e, type: 2}
+    weight: 0
+  - rewardConfig: {fileID: 11400000, guid: 77acb7412edb6594499157475cb0ef6e, type: 2}
+    weight: 0
+  - rewardConfig: {fileID: 11400000, guid: dec1fa4027bf75d4893326a522d8fe02, type: 2}
+    weight: 0
+  - rewardConfig: {fileID: 11400000, guid: 65762f3ce0db7824b8b7c578f79f38ca, type: 2}
+    weight: 0
+  - rewardConfig: {fileID: 11400000, guid: 6953ff5aaffb76d41a0d673523d54e74, type: 2}
+    weight: 0
+  - rewardConfig: {fileID: 11400000, guid: dec1fa4027bf75d4893326a522d8fe02, type: 2}
+    weight: 0
+  - rewardConfig: {fileID: 11400000, guid: df44d9373ce971344b6ea293afa161be, type: 2}
+    weight: 0
+  - rewardConfig: {fileID: 11400000, guid: b2f1c20d6cf076e44adafd7ef8951355, type: 2}
+    weight: 0

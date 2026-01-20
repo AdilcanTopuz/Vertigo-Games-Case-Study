@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: 500_knife_point_reward
   m_EditorClassIdentifier: 
   rewardName: 500 Knife Point
-  icon: {fileID: 21300000, guid: 3c9f984ea78f6d54ba6021f6a5bbcc8b, type: 3}
+  icon: {fileID: 21300000, guid: e3a56977a700ea841b3d8722f7827e3c, type: 3}
+  isBomb: 0
   description: 500 Knife Point
   amount: 100
